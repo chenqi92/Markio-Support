@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="x-title-zh" content="Markio · 本地优先的 Markdown 阅读与写作工具" />
+  <meta name="x-title-en" content="Markio · A local-first Markdown reader & writing app" />
+  <title>Markio · 本地优先的 Markdown 阅读与写作工具</title>
+  <meta name="description" content="Markio is a local-first Markdown reader and writing app for macOS. Markio 是一款本地优先的 Markdown 阅读与写作应用。" />
+  <link rel="icon" type="image/png" href="assets/icon-256.png" />
+  <link rel="apple-touch-icon" href="assets/icon-512.png" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body data-lang="zh">
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="brand" href="./">
+        <img src="assets/icon-256.png" alt="Markio" />
+        <span>Markio</span>
+      </a>
+      <div class="nav-links">
+        <a class="nav-doc" href="privacy.html"><span class="zh">隐私政策</span><span class="en">Privacy</span></a>
+        <a class="nav-doc" href="support.html"><span class="zh">支持</span><span class="en">Support</span></a>
+        <div class="lang-toggle" role="group">
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <img class="logo" src="assets/icon-512.png" alt="Markio" />
+      <h1>Markio</h1>
+      <p class="tagline">
+        <span class="zh">本地优先的 Markdown 阅读与写作工具。<br/>所有笔记都是磁盘上你能直接打开的 .md 文件。</span>
+        <span class="en">A local-first Markdown reader and writing app.<br/>Every note is just a plain .md file on your disk.</span>
+      </p>
+      <div class="cta-row">
+        <a class="cta" href="https://apps.apple.com/app/id6768647792" target="_blank" rel="noopener">
+          <span class="zh">在 App Store 获取</span><span class="en">Get it on the App Store</span>
+        </a>
+        <a class="cta-secondary" href="https://github.com/chenqi92/Markio-Support" target="_blank" rel="noopener">
+          GitHub →
+        </a>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <h3><span class="zh">本地优先</span><span class="en">Local-first</span></h3>
+        <p>
+          <span class="zh">笔记、历史快照、搜索索引都保存在你选择的目录中，开发者无法访问。</span>
+          <span class="en">Notes, history snapshots and search indexes stay in folders you choose. The developer never receives them.</span>
+        </p>
+      </div>
+      <div class="feature">
+        <h3><span class="zh">真所见即所得</span><span class="en">True WYSIWYG</span></h3>
+        <p>
+          <span class="zh">源码 / 分屏 / 阅读 / WYSIWYG 四种模式自由切换，光标离开后 Markdown 标记自动隐藏。</span>
+          <span class="en">Switch between source, split, reading and WYSIWYG modes. Markdown marks fade out when the cursor leaves the line.</span>
+        </p>
+      </div>
+      <div class="feature">
+        <h3><span class="zh">可选 AI 集成</span><span class="en">Optional AI</span></h3>
+        <p>
+          <span class="zh">支持 OpenAI、Anthropic、Gemini、DeepSeek、本地 Ollama，API Key 保存在系统钥匙串。</span>
+          <span class="en">Bring your own key for OpenAI, Anthropic, Gemini, DeepSeek or local Ollama. Keys live in the OS keychain.</span>
+        </p>
+      </div>
+      <div class="feature">
+        <h3><span class="zh">安全可靠</span><span class="en">Safe by default</span></h3>
+        <p>
+          <span class="zh">原子写 + fsync + 外部修改冲突检测；HTML 渲染前自动清洗，CSP 关闭不安全源。</span>
+          <span class="en">Atomic write + fsync + external-change conflict detection. HTML output is sanitized; CSP locks out unsafe sources.</span>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="links">
+      <a href="privacy.html"><span class="zh">隐私政策</span><span class="en">Privacy Policy</span></a>
+      <a href="support.html"><span class="zh">支持</span><span class="en">Support</span></a>
+      <a href="https://github.com/chenqi92/Markio-Support" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <div>© 2026 Markio · welape</div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
